@@ -1,3 +1,16 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("//hello.myfonts.net/count/293f3b");
+
+
+@font-face {font-family: 'MuseoSans-100';src: url('/webfonts/293F3B_0_0.eot');src: url('/webfonts/293F3B_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/293F3B_0_0.woff') format('woff'),url('/webfonts/293F3B_0_0.ttf') format('truetype');}
+
+.museo {
+  font-family: 'MuseoSans-100';
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: MuseoSans-100;
+}

@@ -1,0 +1,16 @@
+<%= form_for :session, :url => session_path, :class => "form-horizontal" do |form| %>
+
+    <%= form.label :email %>
+    <%= form.text_field :email, :type => 'email' %>
+
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+
+    <%= form.submit :class => "btn" %>
+
+
+  <div class='other-links'>
+    <%= link_to t('.sign_up'), sign_up_path %>
+    <%= link_to t('.forgot_password'), new_password_path %>
+  </div>
+<% end %>
