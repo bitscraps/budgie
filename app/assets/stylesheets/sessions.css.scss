@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url("//hello.myfonts.net/count/293f3b");
 
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600);
 @font-face {font-family: 'MuseoSans-100';src: url('/webfonts/293F3B_0_0.eot');src: url('/webfonts/293F3B_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/293F3B_0_0.woff') format('woff'),url('/webfonts/293F3B_0_0.ttf') format('truetype');}
 
 .museo {
@@ -11,6 +11,50 @@
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
   font-family: MuseoSans-100;
+  font-weight:normal;
+}
+
+body {
+	background-color: #FFE96B;
+	font-family:'Open Sans';
+}
+
+#clearance {
+
+	box-shadow: 0 0 5px #000;
+	width:220px;
+	padding:20px 20px 1px 20px;
+	text-align:center;
+	border-radius:20px;
+	margin:auto;
+	margin-top:100px;
+	background-color:#FFF;
+
+	label {
+		font-size:1.2em;
+	}
+
+	input[type=email] {
+	text-align:center;
+	font-family: 'MuseoSans-100';
+	}
+	input[type=password] {
+	text-align:center;
+	font-family: 'MuseoSans-100';
+	}
+
+	.btn {
+		width:100%;
+		margin:0;
+		margin-top:10px;
+	}
+}
+
+.other-links {
+	width:220px;
+	padding:10px 20px 0 20px;
+	margin:auto;
+	text-align:center;
 }
